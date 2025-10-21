@@ -29,13 +29,13 @@ public class ArattaiGrowthTracker {
         System.out.println("----------------------------------------------");
 
        
-        int picoDownloads = downloadsDiarios[0]; 
-        String diaPico = diasDaSemana[0];
+        int picoDownloads = downloadsDiarios[2]; 
+        String diaPico = diasDaSemana[2];
         int minDownloads = downloadsDiarios[0]; 
         String diaMinimo = diasDaSemana[0];
 
         
-        int indicePico = 0;
+        int indicePico = 2;
         int indiceMinimo = 0;
 
         
@@ -65,7 +65,7 @@ public class ArattaiGrowthTracker {
         System.out.println("----------------------------------------------");
 
         final int META_DIARIA = 1000000;
-        int diasAcimaDaMeta = 0;
+        int diasAcimaDaMeta = 2;
         
         System.out.println("Meta Diária Definida: 1.000.000 downloads.");
 
